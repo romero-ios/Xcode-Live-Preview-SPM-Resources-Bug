@@ -1,6 +1,6 @@
 import UIKit
 import PlaygroundSupport
-import ExamplePackage
+import ResourceLibrary
 
 class ViewController: UIViewController {
     private lazy var imageView: UIImageView = {
