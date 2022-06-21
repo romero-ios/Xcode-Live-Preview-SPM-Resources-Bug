@@ -12,7 +12,7 @@
 		EF539D17272875B3004FC6C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF539D16272875B3004FC6C5 /* ViewController.swift */; };
 		EF539D1C272875B4004FC6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF539D1B272875B4004FC6C5 /* Assets.xcassets */; };
 		EF539D1F272875B4004FC6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF539D1D272875B4004FC6C5 /* LaunchScreen.storyboard */; };
-		EF539D282728783D004FC6C5 /* ExamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = EF539D272728783D004FC6C5 /* ExamplePackage */; };
+		EF8FE6032861F5C30054EE85 /* ResourceLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = EF8FE6022861F5C30054EE85 /* ResourceLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF539D282728783D004FC6C5 /* ExamplePackage in Frameworks */,
+				EF8FE6032861F5C30054EE85 /* ResourceLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 			);
 			name = ExampleProject;
 			packageProductDependencies = (
-				EF539D272728783D004FC6C5 /* ExamplePackage */,
+				EF8FE6022861F5C30054EE85 /* ResourceLibrary */,
 			);
 			productName = ExampleProject;
 			productReference = EF539D0F272875B2004FC6C5 /* ExampleProject.app */;
@@ -361,9 +361,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EF539D272728783D004FC6C5 /* ExamplePackage */ = {
+		EF8FE6022861F5C30054EE85 /* ResourceLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = ExamplePackage;
+			productName = ResourceLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
